@@ -1,0 +1,564 @@
+*{
+    margin-top: 0px;
+     margin-left: 0px;   
+     
+      box-sizing: border-box;
+ }
+ 
+ body{
+     color:#ffff;
+     background-color: #03082a;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ /*                                                         header css */
+ 
+ 
+ a{
+    text-decoration: none;
+     /* color:black;  */
+    /* background-color: orangered;  */
+    color:white;
+ }
+ 
+ .navbar{
+    padding-top: 20px;;
+   display:flex;
+   flex-direction:row;
+   justify-content: space-between;
+   
+ }
+ 
+ .nestednavbar1{
+    display:flex;
+    flex-direction:row;
+    text-align:center;
+ justify-content: center;;
+     margin-right:0px;
+     width:30%;
+     /* background-color:red; */
+ }
+ 
+ .nestednavbar1 h4{
+     margin-right:20px;
+     margin-top:10px;
+ }
+ 
+ .nestednavbar1 h4:hover{
+    -webkit-transition: all 500ms ease-in-out;
+         -o-transition: all 500ms ease-in-out;
+         transition: all 500ms ease-in-out;
+     text-align:center;
+         transform: scale(1.06);
+       cursor:pointer;
+ }
+ 
+ .firstnavbarimage{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    
+ }
+ 
+ .firstnavbarimage:hover{
+    -webkit-transition: all 500ms ease-in-out;
+         -o-transition: all 500ms ease-in-out;
+         transition: all 500ms ease-in-out;
+     text-align:center;
+         transform: scale(1.06);
+       cursor:pointer;
+ }
+ 
+ .favorite{
+    margin-top:20px;
+    margin-left:30px;
+    /* background-color:black;; */
+ }
+ 
+ .favorite:hover{
+    -webkit-transition: all 500ms ease-in-out;
+         -o-transition: all 500ms ease-in-out;
+         transition: all 500ms ease-in-out;
+     text-align:center;
+         transform: scale(1.06);
+       cursor:pointer;
+ }
+ 
+ 
+ 
+ 
+ input[type="text"]
+ {
+    float:right;
+    background-color:#f9f9f9;
+    margin-left:120px;
+    width:40%;
+   height:35px;
+   text-align:center;
+   outline:none;
+   border:none;
+   margin-top:15px;
+   /* background-color:grey; */
+ }
+ 
+ .nestednavbar2{
+    display:flex;
+    flex-direction:row;
+    /* background-color: black; */
+ }
+ #navbarimage1{
+    width:40px;
+    margin-top:15px;;
+    margin-left:30px;
+    border-radius: 50%;;
+ }
+ 
+ #navbarimage2{
+    width:70px;
+    height:70px;
+    margin-top:5px;
+    margin-left:30px;
+    border-radius: 50%;;
+ }
+ 
+ #navbarimage1:hover{
+    -webkit-transition: all 500ms ease-in-out;
+         -o-transition: all 500ms ease-in-out;
+         transition: all 500ms ease-in-out;
+     text-align:center;
+         transform: scale(1.06);
+       cursor:pointer;
+ }
+ 
+ #navbarimage2:hover{
+    -webkit-transition: all 500ms ease-in-out;
+         -o-transition: all 500ms ease-in-out;
+         transition: all 500ms ease-in-out;
+     text-align:center;
+         transform: scale(1.06);
+       cursor:pointer;
+ }
+ 
+ /*                                                         middle styling  */
+
+ .midsection{
+   
+   margin-top:50px;
+   margin-left:5px;
+   display:flex;
+   height:100%;
+   box-sizing:border-box;
+   /* background-color:black;; */
+   margin-left:100px;
+   margin-right: 100px;;
+ }
+ .insidemidsection1{
+   background-color:rgb(4, 4, 24);
+
+    flex:70%;
+    display:flex;
+    flex-direction: row;
+    
+ }
+ .singleartistimage{
+    width:auto;
+    height:325px;
+    
+ }
+ .artistbio{
+   padding:0px;
+ }
+ .artistbio h2{
+  margin-top: 50px;;
+  margin-left:25px;
+ }
+ .artistbio p{
+    font-size: 11px;;
+    margin-top: 1px;;
+    margin-left:25px;;
+    font-family:Georgia, 'Times New Roman', Times, serif
+ }
+ a .button{
+   margin-left:25px;;
+   width:130px;;
+   height:35px;
+   margin-top: 20px;;
+  font-size: medium;
+   color:white;
+   background-color:rgb(17, 16, 42);
+   border:none;
+ }
+ a:hover button{
+   cursor:pointer;
+ }
+ .album{
+   margin-left:25px;
+   
+ }
+ /*                                              similier artist */
+ .insidemidsection2{
+   /* background-color:rgb(17, 16, 42); */
+    flex:30%;
+    margin-left: 30px;;
+ }
+ .similierartist{
+   display:flex;
+   flex-direction: row;;
+   justify-content: space-between;
+ }
+ .similierartist p{
+   font-size: 10px;
+ }
+ .insidemidsection2content{
+  display:flex;
+  flex-direction:row;
+  /* padding:10px; */
+  /* background-color: red;; */
+ }
+ .similierartistimage{
+   width: 90px;
+   height:90px;
+   border-radius:50%;
+ }
+ .a1{
+   margin-top:10px;
+   margin-left: 20px;;
+   margin-top: 10px;;
+   display:flex;
+   flex-direction:column;
+ }
+ 
+.a1 p{
+   margin-top:10px;
+   font-size: 10px;
+   color:grey;
+}
+.a1 .songname{
+   font-size: 10px;
+   color:white;
+ }
+.a1 h1{
+   font-size:10px;
+}
+.threedot{
+   display:flex;
+   flex-direction: row;
+   /* background-color: green; */
+   margin-left: 100px;;
+   margin-top: 10px;
+   width:15px;
+   justify-content: space-between;
+}
+.dot {
+   height: 4px;
+   width:4px;
+   background-color: #bbb;
+   border-radius: 50%;
+   display: inline-block;
+ }
+
+
+ /*                                             Footer part                 aartist song */
+
+ .footerpart{
+   display:flex;
+   flex-direction:row;
+   margin-top:50px;
+   margin-left:5px;
+   height:100%;
+   box-sizing:border-box;
+   margin-left:100px;
+   margin-right: 100px;;
+  }
+  /*                                              inside footerpart 1 */
+                                   
+
+ .insidefooterpart1{
+   flex:70%;
+  display:flex;
+  flex-direction:column;
+ }
+/*                                               artist     first song */
+
+
+
+ .artistsong{
+   margin-top:8px;
+   background-color:rgb(4, 4, 24);
+   display:flex;
+   flex-direction:row;
+   justify-content: space-between;
+   /* background-color:rgb(4, 4, 24); */
+ }
+ .songdetail{
+   display:flex;
+   flex-direction:row;
+  margin-top: 10px;;
+  margin-bottom:10px;;
+ }
+
+ .imageiconsong1{
+   width:35px;
+   height:35px;
+   border-radius: 2px;
+
+}
+.plussign{
+   margin-top: 15px;
+   margin-right:50px;
+}
+
+
+/*                                                   inside footer part 2 */
+ .insidefooterpart2{
+   flex:30%;
+   display:flex;
+  flex-direction:row;
+  background-color: #03082a;
+  margin-left: 14px;
+ }
+
+ .myplaylist .recentlyplayed{
+   font-size: 20px;;
+   font-weight:bold;
+   margin-left: 20px;;
+ }
+
+ /*                                            first song styling */
+
+
+ .myplaylist{
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+ }
+ .song1{
+    display:flex;
+    flex-direction: row;
+    /* background-color: purple; */
+    border-radius: 10px solid white;
+ }
+ 
+ #numbercount1{
+    margin-left: 10px;;
+    margin-right: 10px;;
+   font-size: 11px;;
+   height:1px;
+    margin-top:10px;
+   
+ }
+ .imageiconsong1{
+    width:35px;
+    height:35px;
+    border-radius: 2px;
+ }
+ 
+ #songtitle1a {
+    margin-left: 14px;;
+   font-size: 12px;
+   height:1px;
+    margin-top:5px;
+    color:white;
+    /* font-weight:bold; */
+ }
+ 
+ #songtitle2a {
+    margin-left: 14px;;
+    font-size: 10px;
+   height:0px;
+    margin-top:15px;
+    font-weight:lighter;
+    color:grey;
+
+ }
+ 
+ .hearticonsong1{
+    width:20px;
+    height:20px;
+    margin-left:180px;
+    margin-top:15px;
+ }
+  
+ /*                                              second song styling */
+ 
+ #numbercount2{
+    margin-left: 10px;;
+    margin-right: 10px;;
+   font-size: 11px;;
+   height:1px;
+    margin-top:10px;
+   
+ }
+ 
+ #songtitle1b {
+    margin-left: 14px;;
+    font-size: 12px;
+    height:1px;
+     margin-top:5px;
+     color:white;
+     /* font-weight:bold; */
+ }
+ 
+ #songtitle2b {
+    margin-left: 14px;;
+    font-size: 10px;
+   height:0px;
+    margin-top:15px;
+    font-weight:lighter;
+    color:grey;
+ }
+ 
+ .hearticonsong2{
+    width:20px;
+    height:20px;
+    margin-left:174px;
+    margin-top:15px;
+ }
+  
+ /*                                   third song styling */ 
+ 
+ #numbercount3{
+    margin-left: 10px;;
+    margin-right: 10px;;
+   font-size: 11px;;
+   height:1px;
+    margin-top:10px;
+   
+ }
+ 
+ #songtitle1c {
+    margin-left: 14px;;
+    font-size: 10px;
+    height:1px;
+     margin-top:5px;
+     font-weight:bolder;
+     color:white;
+ }
+ 
+ #songtitle2c {
+    margin-left: 14px;;
+    font-size: 10px;
+   height:0px;
+    margin-top:15px;
+    font-weight:lighter;
+    
+    color:grey;
+ }
+ 
+ .hearticonsong3{
+    width:20px;
+    height:20px;
+    margin-left:167px;
+    margin-top:15px;
+ }
+  
+ 
+ 
+                                                /* forth song styling */ 
+ 
+ #numbercount4{
+    margin-left: 10px;;
+    margin-right: 10px;;
+   font-size: 11px;;
+   height:1px;
+    margin-top:10px;
+   
+ }
+ 
+ #songtitle1d {
+    margin-left: 14px;;
+    font-size: 10px;
+    height:1px;
+     margin-top:5px;
+     font-weight:bolder;
+     color:white;
+ }
+ 
+ #songtitle2d {
+    margin-left: 14px;;
+    font-size: 10px;
+   height:0px;
+    margin-top:15px;
+    font-weight:lighter;
+    color:grey;
+ }
+ 
+ .hearticonsong4{
+    width:20px;
+    height:20px;
+    margin-left:167px;
+    margin-top:15px;
+ }
+  
+                                      
+                                                /* fifth song styling */ 
+ 
+ #numbercount5{
+    margin-left: 10px;;
+    margin-right: 10px;;
+   font-size: 11px;;
+   height:1px;
+    margin-top:10px;
+   
+ }
+ 
+ #songtitle1e {
+    margin-left: 14px;;
+    font-size: 10px;
+    height:1px;
+     margin-top:5px;
+     font-weight:bolder;
+     color:white;
+ }
+ 
+ #songtitle2e {
+    margin-left: 14px;;
+    font-size: 10px;
+   height:0px;
+    margin-top:15px;
+    font-weight:lighter;
+    color:grey;
+ }
+ 
+ .hearticonsong5{
+    width:20px;
+    height:20px;
+    margin-left:178px;
+    margin-top:15px;
+ }
+  
+                                              
+                                                /* sixth song styling */ 
+ 
+ #numbercount6{
+    margin-left: 10px;;
+    margin-right: 10px;;
+   font-size: 11px;;
+   height:1px;
+    margin-top:10px;
+   
+ }
+ 
+ #songtitle1f {
+    margin-left: 14px;;
+    font-size: 10px;
+    height:1px;
+     margin-top:5px;
+     font-weight:bolder;
+     color:white;
+ }
+ 
+ #songtitle2f {
+    margin-left: 14px;;
+    font-size: 10px;
+   height:0px;
+    margin-top:15px;
+    font-weight:lighter;
+    color:grey;
+ }
+ 
+ .hearticonsong6{
+    width:20px;
+    height:20px;
+    margin-left:184px;
+    margin-top:15px;
+ }
